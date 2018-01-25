@@ -67,11 +67,20 @@
       align-* is column axis
     */
 
+
+
     .container {
       display: grid;
       grid-gap: 20px;
       grid-template-columns: repeat(10, 1fr);
+      place-items: stretch stretch;
+      justify-content: space-between;
     }
+    
+    .itm {
+      background: white;
+    }
+
   </style>
 </body>
 
