@@ -1,3 +1,5 @@
+/* Base Style */
+
 body {
   font-size: 15px;
 }
@@ -12,3 +14,8 @@ img {
   max-width: 100%;
 }
 
+/* Top Section */
+
+.top {
+	display: grid;
+}
